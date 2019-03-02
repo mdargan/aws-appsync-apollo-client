@@ -1,0 +1,22 @@
+# this is an auto generated file. This will be overwritten
+subscription OnCreateAuctionItem($id: ID, $title: String, $currentPrice: Int) {
+  onCreateAuctionItem(id: $id, title: $title, currentPrice: $currentPrice) {
+    id
+    title
+    currentPrice
+  }
+}
+subscription OnUpdateAuctionItem($id: ID, $title: String, $currentPrice: Int) {
+  onUpdateAuctionItem(id: $id, title: $title, currentPrice: $currentPrice) {
+    id
+    title
+    currentPrice
+  }
+}
+subscription OnDeleteAuctionItem($id: ID, $title: String, $currentPrice: Int) {
+  onDeleteAuctionItem(id: $id, title: $title, currentPrice: $currentPrice) {
+    id
+    title
+    currentPrice
+  }
+}

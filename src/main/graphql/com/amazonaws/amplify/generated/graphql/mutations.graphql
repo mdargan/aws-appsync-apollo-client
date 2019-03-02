@@ -1,0 +1,22 @@
+# this is an auto generated file. This will be overwritten
+mutation CreateAuctionItem($input: CreateAuctionItemInput!) {
+  createAuctionItem(input: $input) {
+    id
+    title
+    currentPrice
+  }
+}
+mutation UpdateAuctionItem($input: UpdateAuctionItemInput!) {
+  updateAuctionItem(input: $input) {
+    id
+    title
+    currentPrice
+  }
+}
+mutation DeleteAuctionItem($input: DeleteAuctionItemInput!) {
+  deleteAuctionItem(input: $input) {
+    id
+    title
+    currentPrice
+  }
+}

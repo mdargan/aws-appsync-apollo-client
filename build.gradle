@@ -1,0 +1,12 @@
+buildscript {
+    repositories {
+        jcenter()
+        google()
+    }
+    dependencies {
+        classpath 'com.apollographql.apollo:apollo-gradle-plugin:1.0.0-alpha5'
+    }
+}
+
+apply plugin: 'java'
+apply plugin: 'com.apollographql.android'
